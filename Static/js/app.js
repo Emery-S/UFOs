@@ -35,7 +35,7 @@ function updateFilters() {
     let elemValue = element.property("value");
     console.log(elemValue)
     // 4c. Save the id of the filter that was changed as a variable.
-    let elemId = elemValue.attr("id");
+    let elemId = element.attr("id");
     console.log(elemId)
 
   
@@ -58,12 +58,12 @@ function updateFilters() {
   function filterTable() {
   
     // 8. Set the filtered data to the tableData.
-    let updateFilters = tableData;
+    let completeData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    Object.entities(filters).forEach(([key,value])=> {
-      filteredData =  filteredData.filter(row => row[key]=== value);
+    Object.entries(filters).forEach(([key,value])=> {
+      updateFilters =  completeData.filter(row => row[key]=== value);
     });  
   
     // 10. Finally, rebuild the table using the filtered data
