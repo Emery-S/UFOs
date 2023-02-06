@@ -8,7 +8,7 @@ The resulting page offers a basic sytem for sorting the table and displaying the
 ### How to perform a search
 Once on the site you can utilize the filter search area on the left of the page. Each parameter added applies a filter to the table that changes the tables' display allowing for a simplified look at the desired information.
 ###### Example
-Open the site and scroll to the table and look at the Filter Search on the left
+Open the site and scroll to the table. Look at the Filter Search on the left
 <img width="1440" alt="Screen Shot 2023-02-05 at 9 56 20 PM" src="https://user-images.githubusercontent.com/112206035/216873341-0156b069-73e3-4d41-b31e-0c08efbadd71.png">
 
 Enter in the parameters and hit the enter button on your keyboard. In this case the parameters include Date: 1/1/2010, City: la mesa, State: ca, and Shape: triangle
